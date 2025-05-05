@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Importa as variantes CSS da Preline */
+@import "../node_modules/preline/variants.css";
+
+body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  overflow-x: hidden;
+  scroll-behavior: 50;
+}
+
+#cursos{
+  padding-top: 10px;
+}
+
+#cursosimg{
+  border-radius: 12px;
+}
+
+#tituloscursos{
+  margin-top: 15px;
+}
+
+#conheca{
+  margin-top: 2%;
+  background-color: #03805E;
+  height: 50px;
+  width: 40%;
+  border-radius: 12px;
+  color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#titulo{
+  font-size: 50px;
+  margin-top: -20%;
+}
+
+#subtitulo{
+  margin-top: 3%;
+}
+
+#socorro{
+    color: black;
+}
+
+#texts{
+    font-size: 9px;
+}
+
+#textss{
+    font-size: 12px;
+}
+
+#textsss{
+    font-size: 25px;
+}
+
+.ttt{
+    font-size: 30px;
+}
+
+.contato-container h2 {
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+  
+  
+  .contato-form {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 25%;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  
+  .contato-form input,
+  .contato-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .contato-form input:focus,
+  .contato-form textarea:focus {
+    border-color: #9d00ff;
+    outline: none;
+  }
+  
+  input{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: #ffffff;
+  }
+
+  textarea{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: #ffffff;
+  }
+
+  button{
+    width: 50%;
+  }
+
+  .contato-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #03805E;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #ffffff;
+  }
+  
+  
+  .contato-form button:hover {
+    background-color: oklch(0.705 0.213 47.604);
+  }
+  
+  #contato {
+    text-align: center; /* Centraliza o texto */
+    width: 100%; /* Garante que ele ocupe toda a largura disponível */
+    display: block; /* Certifica que o elemento é tratado como um bloco */
+    font-size: 48px;
+    margin-top: 8%;
+  }
+
+
+
+
+  
